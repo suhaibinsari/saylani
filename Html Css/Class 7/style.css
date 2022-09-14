@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+header{
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.275);
+    padding-top: 30px;
+}
+
+
+.nav-container {
+        position: static;
+        z-index: 0;
+        margin-left: 48px;
+        background-color: transparent;
+}
+
+
+.buttons ul>li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;
+  
+}
+
+.buttons a{
+
+    color: gray;
+
+}
+
+.buttons a:hover{
+    border-bottom: 2px solid orangered;
+    padding-bottom: 33.5px;
+    color: orangered;
+    text-decoration: none;
+    
+
+}
+
+
+.cart{
+
+float: right;
+
+padding-right: 40px;
+
+}
+
+.profile img{
+    width: 30px;
+    float:right;
+    
+}
+
+section{
+    margin-top: 100px;
+
+}
+
+
+.container .row img{
+
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    
+
+    }
+
+
+    .container-fluid .row{
+
+        width: 120%;
+        align-content: center;
+    }
+
+
+    .container-fluid .row img{
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-left: 22px;
+    }
+
+    .container-fluid .row img:hover{
+
+
+        border: 3px solid orange;
+        background-color: aliceblue;
+        overflow: hidden;
+        padding-right: 0rem;
+        padding-left: 0rem;
+
+    }
+
+
+.text-data{
+    padding-top: 35px;
+    margin-left: 120px;
+
+}
+    .text-data #top{
+color:darkorange;
+font-weight: bold;
+font-size: 15px;
+
+    }
+
+    .text-data #heading{
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+
+    .text-data #decription{
+        font-size: 15px ;
+    }
+
+    #sp-1{
+        font-size: 15px;
+        background-color: pink;
+        color: orangered;
+        border-radius: 5px;
+        padding-top: 3px;
+    }
+
+
+.product-quantity{
+    background-color: white;
+    color: black;
+    
+    padding:8px;
+    
+}
+
+.button-container{
+ 
+    display: flex;
+    margin-left: 30px;
+
+}
+
+
+.button-container .row .product-minus{
+    border: none;
+    background-color: transparent;
+   
+}
+
+
+.button-container .row .product-plus{
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.button-container .row .product-minus img{
+    width: 15px;
+    height: 4px;
+    
+    
+    
+}
+
+.button-container .row .product-plus img{
+    width: 15px;
+    height: 12px;
+    
+}
+
+
+#btn-4{
+    background-color: #DD7337;
+    color: white;
+    width: 55%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#btn-4 img{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+    
+}
+
+#btn-4:hover{
+    color: orangered;
+    background-color: white;
+    border: 2px solid orangered;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

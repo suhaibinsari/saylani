@@ -1,0 +1,15 @@
+.nav-bar{
+background-color: green;
+border: 5px solid black;
+    
+}
+
+.logo{
+
+    margin-left: 50px;
+}
+
+.list{
+display: inline-block;
+    list-style-type: none;
+}
